@@ -1,0 +1,93 @@
+[
+    {
+      "identifiant": 1,
+      "type": "Achat",
+      "responsable": "001",
+      "marge_degagée": 5000,
+      "kilometres_parcourus": 200,
+      "mot_cle_responsable": "Stratégie",
+      "mot_cle_client_fournisseur": "Qualité"
+    },
+    {
+      "identifiant": 2,
+      "type": "Vente",
+      "responsable": "002",
+      "marge_degagée": 8000,
+      "kilometres_parcourus": 150,
+      "mot_cle_responsable": "Marketing",
+      "mot_cle_client_fournisseur": "Satisfaction"
+    },
+    {
+      "identifiant": 3,
+      "type": "Achat",
+      "responsable": "003",
+      "marge_degagée": 3000,
+      "kilometres_parcourus": 100,
+      "mot_cle_responsable": "Approvisionnement",
+      "mot_cle_client_fournisseur": "Fiabilité"
+    },
+    {
+      "identifiant": 4,
+      "type": "Vente",
+      "responsable": "004",
+      "marge_degagée": 6000,
+      "kilometres_parcourus": 180,
+      "mot_cle_responsable": "Relation client",
+      "mot_cle_client_fournisseur": "Innovation"
+    },
+    {
+      "identifiant": 5,
+      "type": "Achat",
+      "responsable": "005",
+      "marge_degagée": 4000,
+      "kilometres_parcourus": 120,
+      "mot_cle_responsable": "Négociation",
+      "mot_cle_client_fournisseur": "Durabilité"
+    },
+    {
+      "identifiant": 6,
+      "type": "Vente",
+      "responsable": "006",
+      "marge_degagée": 7000,
+      "kilometres_parcourus": 160,
+      "mot_cle_responsable": "Promotion",
+      "mot_cle_client_fournisseur": "Efficacité"
+    },
+    {
+      "identifiant": 7,
+      "type": "Achat",
+      "responsable": "007",
+      "marge_degagée": 3500,
+      "kilometres_parcourus": 90,
+      "mot_cle_responsable": "Gestion des stocks",
+      "mot_cle_client_fournisseur": "Innovation"
+    },
+    {
+      "identifiant": 8,
+      "type": "Vente",
+      "responsable": "008",
+      "marge_degagée": 5500,
+      "kilometres_parcourus": 140,
+      "mot_cle_responsable": "Communication",
+      "mot_cle_client_fournisseur": "Satisfaction"
+    },
+    {
+      "identifiant": 9,
+      "type": "Achat",
+      "responsable": "009",
+      "marge_degagée": 3200,
+      "kilometres_parcourus": 110,
+      "mot_cle_responsable": "Analyse des coûts",
+      "mot_cle_client_fournisseur": "Fiabilité"
+    },
+    {
+      "identifiant": 10,
+      "type": "Vente",
+      "responsable": "010",
+      "marge_degagée": 7500,
+      "kilometres_parcourus": 170,
+      "mot_cle_responsable": "Service après-vente",
+      "mot_cle_client_fournisseur": "Durabilité"
+    }
+  ]
+  

@@ -1,0 +1,93 @@
+[
+    {
+      "reference_machine": 1,
+      "zone": 101,
+      "premiere_mise_en_service": "2022-03-15",
+      "cadence_de_production": 500,
+      "etat": "active",
+      "prochain_entretien": "2023-05-20",
+      "utilisateur_actuel": "011"
+    },
+    {
+      "reference_machine": 2,
+      "zone": 102,
+      "premiere_mise_en_service": "2022-04-20",
+      "cadence_de_production": 600,
+      "etat": "active",
+      "prochain_entretien": "2023-06-18",
+      "utilisateur_actuel": "012"
+    },
+    {
+      "reference_machine": 3,
+      "zone": 103,
+      "premiere_mise_en_service": "2022-02-10",
+      "cadence_de_production": 450,
+      "etat": "en panne",
+      "prochain_entretien": "2023-04-12",
+      "utilisateur_actuel": "013"
+    },
+    {
+      "reference_machine": 4,
+      "zone": 104,
+      "premiere_mise_en_service": "2022-01-05",
+      "cadence_de_production": 700,
+      "etat": "en entretien",
+      "prochain_entretien": "2023-03-25",
+      "utilisateur_actuel": "014"
+    },
+    {
+      "reference_machine": 5,
+      "zone": 105,
+      "premiere_mise_en_service": "2022-05-30",
+      "cadence_de_production": 550,
+      "etat": "active",
+      "prochain_entretien": "2023-07-10",
+      "utilisateur_actuel": "015"
+    },
+    {
+      "reference_machine": 6,
+      "zone": 106,
+      "premiere_mise_en_service": "2022-06-28",
+      "cadence_de_production": 480,
+      "etat": "en réparation",
+      "prochain_entretien": "2023-08-05",
+      "utilisateur_actuel": "016"
+    },
+    {
+      "reference_machine": 7,
+      "zone": 107,
+      "premiere_mise_en_service": "2022-08-12",
+      "cadence_de_production": 620,
+      "etat": "active",
+      "prochain_entretien": "2023-09-15",
+      "utilisateur_actuel": "017"
+    },
+    {
+      "reference_machine": 8,
+      "zone": 108,
+      "premiere_mise_en_service": "2022-07-02",
+      "cadence_de_production": 530,
+      "etat": "en panne",
+      "prochain_entretien": "2023-10-02",
+      "utilisateur_actuel": "018"
+    },
+    {
+      "reference_machine": 9,
+      "zone": 109,
+      "premiere_mise_en_service": "2022-09-18",
+      "cadence_de_production": 580,
+      "etat": "active",
+      "prochain_entretien": "2023-11-08",
+      "utilisateur_actuel": "019"
+    },
+    {
+      "reference_machine": 10,
+      "zone": 110,
+      "premiere_mise_en_service": "2022-10-25",
+      "cadence_de_production": 670,
+      "etat": "en entretien",
+      "prochain_entretien": "2023-12-20",
+      "utilisateur_actuel": "020"
+    }
+  ]
+  
