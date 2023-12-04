@@ -1,14 +1,20 @@
 const express = require('express')
 const app = express()
-const port = 3000
+
+require("dotenv").config({ path: "./config.env" });
+const PORT = process.env.PORT || 5000;
+
+
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/sales-service/employe',(req,res) => {
-  res.send('il y a 14 personnes')
+
+app.get('/employee/:siteid',(req,res) => {
+  res.send('nombre max de personnel juridique dans le meme site')
 })
+
 
 app.get('/sales/top-sales',(req,res) => {
   res.send('le montant le plus élevé de tous les achats')
@@ -28,11 +34,12 @@ app.get('/machine/out-of-service',(req,res) => {
   res.send('nombre de machines en panne ')
 })
 
-app.get('/employe/:siteid',(req,res) => {
-  res.send('nombre max de personnel juridique dans le meme site')
-})
 
-
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
+const dbo = require("./db/conn");
+app.listen(PORT, () => {
+  // perform a database connection when server starts
+  dbo.connectToServer(function (err) {
+    if (err) console.error(err);
+   });
+  console.log(`Server is running on port: ${PORT}`);
+});
