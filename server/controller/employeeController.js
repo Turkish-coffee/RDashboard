@@ -3,6 +3,7 @@ const Employee = require('../model/employee')
 // Controller function to handle the logic for fetching users
 const getEmployees = async (req, res) => {
     try {
+      res.header("Access-Control-Allow-Origin", "*")
       const service = req.query.service
       const totalEmployees = await Employee.where({'service': service}).countDocuments();
       res.json({ totalEmployees });
