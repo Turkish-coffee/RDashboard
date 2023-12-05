@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+var cors = require('cors')
 
 //create import database and dotenv variables
 const dbo = require("./db/conn");
@@ -18,6 +19,8 @@ app.use('/api/v1', employeeRoutes);
 app.use('/api/v1', zoneRoutes);
 app.use('/api/v1', saleRoutes);
 app.use('/api/v1',machineRoutes);
+
+app.use(cors());
 
 // listen to start the server
 app.listen(PORT, async () => {

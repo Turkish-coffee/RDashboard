@@ -29,7 +29,6 @@ const TitleContainer = tw.div`
   flex-col
   [align-content: center]
   [font-family:'Chivo-Regular',Helvetica]
-  font-normal
   text-black
   text-[20px] 
   tracking-[0] 
