@@ -1,0 +1,173 @@
+[
+    {
+      "identifiant_produit": 1,
+      "zone": 101,
+      "etat_emballage": "intact",
+      "responsable": 1001,
+      "position": {
+        "latitude": 40.7128,
+        "longitude": -74.0060,
+        "altitude": 10
+      },
+      "rotation": {
+        "alpha": 30,
+        "beta": 45,
+        "gamma": 60
+      },
+      "collision": 0
+    },
+    {
+      "identifiant_produit": 2,
+      "zone": 102,
+      "etat_emballage": "endommagé",
+      "responsable": 1002,
+      "position": {
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "altitude": 15
+      },
+      "rotation": {
+        "alpha": 40,
+        "beta": 55,
+        "gamma": 70
+      },
+      "collision": 1
+    },
+    {
+      "identifiant_produit": 3,
+      "zone": 103,
+      "etat_emballage": "intact",
+      "responsable": 1003,
+      "position": {
+        "latitude": 51.5074,
+        "longitude": -0.1278,
+        "altitude": 20
+      },
+      "rotation": {
+        "alpha": 50,
+        "beta": 65,
+        "gamma": 80
+      },
+      "collision": 0
+    },
+    {
+      "identifiant_produit": 4,
+      "zone": 104,
+      "etat_emballage": "endommagé",
+      "responsable": 1004,
+      "position": {
+        "latitude": 45.4215,
+        "longitude": -75.6993,
+        "altitude": 25
+      },
+      "rotation": {
+        "alpha": 60,
+        "beta": 75,
+        "gamma": 90
+      },
+      "collision": 1
+    },
+    {
+      "identifiant_produit": 5,
+      "zone": 105,
+      "etat_emballage": "intact",
+      "responsable": 1005,
+      "position": {
+        "latitude": 37.7749,
+        "longitude": -122.4194,
+        "altitude": 30
+      },
+      "rotation": {
+        "alpha": 70,
+        "beta": 85,
+        "gamma": 100
+      },
+      "collision": 0
+    },
+    {
+      "identifiant_produit": 6,
+      "zone": 106,
+      "etat_emballage": "endommagé",
+      "responsable": 1006,
+      "position": {
+        "latitude": 35.6895,
+        "longitude": 139.6917,
+        "altitude": 35
+      },
+      "rotation": {
+        "alpha": 80,
+        "beta": 95,
+        "gamma": 110
+      },
+      "collision": 1
+    },
+    {
+      "identifiant_produit": 7,
+      "zone": 107,
+      "etat_emballage": "intact",
+      "responsable": 1007,
+      "position": {
+        "latitude": -33.8688,
+        "longitude": 151.2093,
+        "altitude": 40
+      },
+      "rotation": {
+        "alpha": 90,
+        "beta": 105,
+        "gamma": 120
+      },
+      "collision": 0
+    },
+    {
+      "identifiant_produit": 8,
+      "zone": 108,
+      "etat_emballage": "endommagé",
+      "responsable": 1008,
+      "position": {
+        "latitude": 40.7128,
+        "longitude": -74.0060,
+        "altitude": 45
+      },
+      "rotation": {
+        "alpha": 100,
+        "beta": 115,
+        "gamma": 130
+      },
+      "collision": 1
+    },
+    {
+      "identifiant_produit": 9,
+      "zone": 109,
+      "etat_emballage": "intact",
+      "responsable": 1009,
+      "position": {
+        "latitude": 37.7749,
+        "longitude": -122.4194,
+        "altitude": 50
+      },
+      "rotation": {
+        "alpha": 110,
+        "beta": 125,
+        "gamma": 140
+      },
+      "collision": 0
+    },
+    {
+      "identifiant_produit": 10,
+      "zone": 110,
+      "etat_emballage": "endommagé",
+      "responsable": 1010,
+      "position": {
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "altitude": 55
+      },
+      "rotation": {
+        "alpha": 120,
+        "beta": 135,
+        "gamma": 150
+      },
+      "collision": 1
+    }
+  ]
+  
