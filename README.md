@@ -47,3 +47,7 @@ B.	Nombre maximum de personnel juridique regroupé sur le même site
   Methode : GET
   Endpoint : ""
   Description : 
+
+
+# database startup command
+    docker run -d -p 27017:27017 -v $(pwd)/data:/data/db mongo
