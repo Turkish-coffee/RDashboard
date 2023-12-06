@@ -4,8 +4,10 @@ const Employee = require('../model/employee')
 const getEmployees = async (req, res) => {
     try {
       res.header("Access-Control-Allow-Origin", "*")
+      var totalEmployees = 0;
       const service = req.query.service
-      const totalEmployees = await Employee.where({'service': service}).countDocuments();
+      service ? totalEmployees = await Employee.where({'service': service}).countDocuments()
+              : totalEmployees = await Employee.countDocuments();
       res.json({ totalEmployees });
     } catch (error) {
       console.log(error);
