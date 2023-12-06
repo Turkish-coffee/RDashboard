@@ -8,7 +8,9 @@ import {
   faUserTie, 
   faPeopleLine, 
   faBuildingCircleExclamation, 
-  faClipboardCheck } from '@fortawesome/free-solid-svg-icons'
+  faClipboardCheck,
+  faTemperatureArrowUp
+} from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -75,6 +77,7 @@ const iconMap: { [key:string] : IconDefinition} = {
   site : faBuildingCircleExclamation,
   zone : faClipboardCheck,
   formation : faThumbsDown,
+  temperature: faTemperatureArrowUp,
 }
 
 
