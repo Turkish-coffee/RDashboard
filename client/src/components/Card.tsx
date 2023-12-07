@@ -1,4 +1,5 @@
 import tw from 'twin.macro'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core'
 import { 
@@ -13,17 +14,17 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 
 
-
 type Props = {
     Title: string,
     Icon: string,
     Data?: string | number,
     Metric?: string,
+    handleClick?: () => void,
 }
 
 const CardContainer = tw.div`
-  w-[247px] 
-  min-h-[190px]
+  min-w-[100px] 
+  min-h-[100px]
   top-[179px] 
   left-[135px]
   transition duration-300 hover:scale-105 
@@ -80,12 +81,11 @@ const iconMap: { [key:string] : IconDefinition} = {
   temperature: faTemperatureArrowUp,
 }
 
-
 const Card = (props: Props) => {
-    const { Title, Icon, Data, Metric } = props
+    const { Title, Icon, Data, Metric, handleClick } = props;
 
   return (
-    <CardContainer>
+    <CardContainer onClick={handleClick}>
       <IconContainer>
          <FontAwesomeIcon icon={iconMap[Icon]} />
       </IconContainer>

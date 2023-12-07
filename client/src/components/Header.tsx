@@ -1,6 +1,8 @@
 import logo from '../assets/react.svg'
 import tw from 'twin.macro'
 
+import { Navbar } from '.';
+
 const HeaderContainer = tw.div`
   w-full
   flex
@@ -27,10 +29,8 @@ const LogoContainer = tw.img`
 const TitleContainer = tw.div`
   flex
   flex-col
-  [align-content: center]
   [font-family:'Chivo-Regular',Helvetica]
   text-black
-  text-[20px] 
   tracking-[0] 
   leading-[normal] 
   whitespace-nowrap
@@ -43,6 +43,7 @@ const Header = () => {
         <TitleContainer>
           Welcome to the Lactalis's Dashboard !!
         </TitleContainer>
+        <Navbar />
       </HeaderBox>
     </HeaderContainer>
   )
