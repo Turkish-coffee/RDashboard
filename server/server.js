@@ -7,6 +7,13 @@ const dbo = require("./db/conn");
 require("dotenv").config({ path: "./config.env" });
 const PORT = process.env.PORT_SERVER;
 
+ // import models
+ const Employee = require('./model/employee')
+ const Machine = require('./model/machine')
+ const Sale = require('./model/sale')
+ const formation = require('./model/formation')
+ const article = require('./model/article')
+
 
 // import all routes
 const employeeRoutes = require('./routes/employeeRoutes');
