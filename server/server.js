@@ -5,7 +5,7 @@ var cors = require('cors')
 //create import database and dotenv variables
 const dbo = require("./db/conn");
 require("dotenv").config({ path: "./config.env" });
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT_SERVER;
 
 
 // import all routes

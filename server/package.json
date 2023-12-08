@@ -4,6 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "Achat": "node Achat.js",
+    "Collecte": "node Collecte.js",
+    "Juridique": "node Juridique.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
