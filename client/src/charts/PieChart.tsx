@@ -49,7 +49,7 @@ const PieChart = () => {
         cornerRadius={3}
         sortByValue={true}
         activeOuterRadiusOffset={8}
-        colors={{ scheme: 'set3' }}
+        colors={{ scheme: 'paired' }}
         borderColor={{
             from: 'color',
             modifiers: [
