@@ -7,7 +7,7 @@ import axios from 'axios'
 //PieChart ==> number of employees per service
 const PieChart = () => {
     
-  const [data, setData] = useState([]);
+  const [data, setData] = useState<Array<{ id: string; label: string; value: unknown; color: string; }>>([]);
 
   const services = [
     'commercial','finance et gestion','ressources humaines','juridique','logistique', 
@@ -42,7 +42,7 @@ const PieChart = () => {
     <>
       <ResponsivePieCanvas
         data={data}
-        margin={{ top: 40, right: 180, bottom: 40, left: 180 }}
+        margin={{ top: 40, right: 0, bottom: 40, left: 0 }}
         startAngle={-13}
         innerRadius={0.5}
         padAngle={0.7}
