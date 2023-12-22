@@ -65,5 +65,33 @@ les informations de connexion sont les suivantes:
 pour charger les donnees faites fonctionner le server une fois, les collections devraient se 
 creer automatiquement. une fois crees depuis compass, chargez les donnees du folder data.
 
+
+# API
+
+## Achats :
+### A.Nombre d’employés du service Achats pour l’ensemble du groupe laitier
+Methode : GET
+Endpoint : "/api/v1/employees?service={service}"
+Description : renvoie le nombre d’employées par service qui peut être : "commercial, finance et gestion, ressources humaines, juridique, logistique, assistance commerciale, direction générale, maintenance, achats, cyber sécurité, recherche et développement, informatique, qualité, collecte, marketing, industriel, assistance technique, analyse des données".
+Par exemple : pour obtenir le nombre des employés dans le service "achats", l’endpoint est "/api/v1/employees?service=achats".
+### B.Montant le plus élevé de tous les achats
+Méthode : GET
+Endpoint : "/api/v1/sales/top-sales"
+## Collecte (déchets) :
+### A.Zone la plus chaude de tout le groupe laitier
+Méthode : GET
+Endpoint : "/api/v1/zones/heat "
+### B.Pourcentage des zones ayant été validées cette année par un audit de conformité
+Méthode : GET
+Endpoint :  "/api/v1/zones/operationnal-rate"
+## Juridique :
+### A.Nombre de machines en panne
+Méthode : GET
+Endpoint : "/api/v1/machines/shutdown"
+### B.Nombre maximum de personnel juridique regroupé sur le même site
+Méthode : GET
+Endpoint : "/api/v1/employees?service=juridique"
+
+
  
 
